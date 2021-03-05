@@ -28,7 +28,7 @@ git clone https://github.com/AuTsing/touchsprite-extension-tslib-definition.git
 或
 
 ```
-下载 https://github.com/AuTsing/touchsprite-extension-tslib-definition/blob/main/tslib_d.lua
+下载 https://raw.githubusercontent.com/AuTsing/touchsprite-extension-tslib-definition/main/tslib_d.lua
 ```
 
 3. 在 Lua 插件中设置中配置外部库，打开设置中 `Lua.workspace.library` 设置项
