@@ -8,6 +8,12 @@ Touchsprite Extension Tslib Definition (触动精灵库定义) 旨在为 VSCode 
 
 -   [标题](#Touchsprite-Extension-Tslib-Definition)
 -   [目录](#目录)
+-   [使用](#使用)
+-   [参与项目](#参与项目)
+    -   [基础](#基础)
+    -   [步骤](#步骤)
+-   [License](#license)
+-   [声明](#声明)
 
 # 使用
 
@@ -27,11 +33,11 @@ git clone https://github.com/AuTsing/touchsprite-extension-tslib-definition.git
 
 3. 在 Lua 插件中设置中配置外部库，打开设置中 `Lua.workspace.library` 设置项
 
-    ![avatar]()
+    ![avatar](https://raw.githubusercontent.com/AuTsing/touchsprite-extension-tslib-definition/main/assets/QQ%E6%88%AA%E5%9B%BE20210305151618.png)
 
 4. 将设置项替换为你这边存放文件的绝对路径，保存
 
-    ![avatar]()
+    ![avatar](https://raw.githubusercontent.com/AuTsing/touchsprite-extension-tslib-definition/main/assets/QQ%E6%88%AA%E5%9B%BE20210305152023.png)
 
 5. 重启 VSCode
 
@@ -42,6 +48,7 @@ git clone https://github.com/AuTsing/touchsprite-extension-tslib-definition.git
 参与项目可能需要你具备以下技能，当然如果你想参与但又不具备以下技能，通过 [issues](https://github.com/AuTsing/touchsprite-extension-tslib-definition/issues) 提交反馈也是一个不错的选择
 
 -   git 基本操作
+-   github 基本操作
 -   Lua 语言开发基础
 -   对触动函数库提示补全有需求
 -   开源爱好者
@@ -50,10 +57,10 @@ git clone https://github.com/AuTsing/touchsprite-extension-tslib-definition.git
 
 ## 步骤
 
-1. 克隆项目
+1. Fork 项目并克隆到本地，请先 Fork 到你自己的仓库后再克隆到本地
 
 ```
-git clone https://github.com/AuTsing/touchsprite-extension-tslib-definition.git
+git clone https://github.com/(你的github用户)/touchsprite-extension-tslib-definition.git
 ```
 
 2. 使用 VSCode 或者你喜欢的任何编辑器打开项目
@@ -85,9 +92,28 @@ end
 -   (如果有)第 4 行 为函数返回值，应添加返回值类型，后面附加返回值说明
 -   第 5,6 行 为函数定义，只需要定义即可，不需要实现
 
-4. 完成撰写后，提交
+4. 完成撰写后，提交，并推送
 
 ```
 git add .
 git commit -m '添加 xxx 函数'
+git push
 ```
+
+5. 提交 Pull requests 申请合并
+
+6. 等待合并
+
+至此，一个完整的参与项目的周期完成，感谢你的贡献 👏~
+
+如果你遇到任何疑问，欢迎提交 [issues](https://github.com/AuTsing/touchsprite-extension-tslib-definition/issues) 或者在群里提交，我会进行回复
+
+# License
+
+[GNU General Public License version 3](https://github.com/AuTsing/touchsprite-extension-tslib-definition/blob/main/LICENSE)
+
+# 声明
+
+项目仅供学习交流使用，使用过程中请遵守相关法律法规；如有任何疑问，请提交[issues](https://github.com/AuTsing/touchsprite-extension/issues)，或请联系我。
+
+**Enjoy!**
