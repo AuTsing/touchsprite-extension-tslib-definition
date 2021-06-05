@@ -39,7 +39,9 @@ git clone https://github.com/AuTsing/touchsprite-extension-tslib-definition.git
 
     ![avatar](https://raw.githubusercontent.com/AuTsing/touchsprite-extension-tslib-definition/main/assets/QQ%E6%88%AA%E5%9B%BE20210305152023.png)
 
-5. 重启 VSCode
+5. 找到 `Workspace: Preload File Size` 选项，确保所设置的数值大于文件数值，否者设置完成后不会加载
+
+6. 重启 VSCode
 
 # 参与项目
 
